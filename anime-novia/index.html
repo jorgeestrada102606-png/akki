@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Colección completa de Chuunibyou — Para ti, mi amor 🌸" />
+  <title>AkkiNovia — Love, Chunibyo & Other Delusions</title>
+
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800;900&family=Zen+Dots&display=swap" rel="stylesheet" />
+
+  <!-- Material Symbols -->
+  <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@400,0..1&display=swap" rel="stylesheet" />
+
+  <!-- App Styles -->
+  <link rel="stylesheet" href="style.css" />
+
+  <style>
+    /* Favicon emoji override */
+    link[rel="icon"] { display: none; }
+  </style>
+</head>
+<body>
+
+  <!-- Loader screen -->
+  <div class="loader" id="loader">
+    <div class="loader__icon">🌸</div>
+    <div class="loader__text">Cargando tu rincón de anime...</div>
+  </div>
+
+  <!-- Background particles -->
+  <div class="particles" id="particles"></div>
+
+  <!-- Toast notifications -->
+  <div class="toast-container" id="toast-container"></div>
+
+  <!-- SPA Root -->
+  <div id="app"></div>
+
+  <!-- Data first, then app -->
+  <script src="data.js"></script>
+  <script src="app.js"></script>
+
+</body>
+</html>
